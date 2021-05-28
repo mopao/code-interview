@@ -4,4 +4,4 @@ Web application accessing team members data using an API.
 
 ## Result
 
-code-interview/blob/main/img/result.png)
+![result image](https://github.com/mopao/code-interview/blob/main/img/result.png)
