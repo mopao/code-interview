@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8"/>
+
+      <title>Interview Challenge</title>
+      <meta name="description" content="employees infos"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--  css -->
+      <link rel="stylesheet" type="text/css" href="css/employeesRoles.css">
+      <link rel="stylesheet" type="text/css" href="css/general.css">
+  </head>
+  <body class="content-wrapper">
+      <main>
+        <h1>find your team members</h1>
+        <form method="get" action="employeesList.html">
+          <h2>select a role</h2>
+          <label for="roles">roles: </label>
+          <select  name="roles" id="roles">
+          </select>
+          <div class="">
+            <button type="submit"> display members</button>
+          </div>
+        </form>
+
+      </main>
+      <!-- script handling the list of employees -->
+      <script type="text/javascript" src="js/functions.js"></script>
+      <script type="text/javascript" src="js/employeesRoles.js"></script>
+  </body>
+</html>

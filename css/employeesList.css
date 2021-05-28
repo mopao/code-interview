@@ -1,0 +1,7 @@
+h1{
+  text-transform: uppercase;
+}
+ul#list-employees{
+    background-color: #ededd0;
+    padding: 1em;
+}

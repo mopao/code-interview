@@ -1,0 +1,53 @@
+/******** employee details style *******************/
+.employee-details{
+  max-width: 300px;
+  width: 100%;
+  margin: auto;
+  margin-top: 2em;
+  border: 1px solid black;
+  padding: 5px;
+}
+#employee-crown-div{
+  float: left;
+  width: 100%;
+}
+#employee-crown-div img{
+  float: right;
+  width: 30px;
+}
+#employee-pic-div img {
+  border-radius: 50%; /* rounded image */
+  width: 80%;
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+
+}
+
+#employee-info-div{
+  padding: 0px 10px;
+  color: #393e46;
+
+}
+
+#employee-name{
+  text-align: center;
+  margin: 0px auto;
+  padding-top: 15px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+#employee-roles-div{
+  margin-top: 80px;
+  color: white;
+}
+
+#employee-roles-div span{
+  padding: 2px 15px;
+  margin-right: 7px;
+}
+
+#employee-roles-div span:last-of-type{
+  margin-right: 0px;
+}
